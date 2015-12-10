@@ -32,7 +32,7 @@
                                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                                     <?=$_GET['error']?>
                                 </div>
-                            <? } ?>
+                            <?php } ?>
                             <form action="/admin/login/" method="post" role="form" onsubmit="return validateCreateAuth()">
                                 <fieldset>
                                     <div class="form-group">
